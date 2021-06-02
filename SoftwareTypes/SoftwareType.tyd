@@ -15,7 +15,7 @@ SoftwareType
 			{
 			Name			"Client"
 			Description		"Connection, a way to 'benchmark' your servers."
-			Popularity		56.3481240918
+			Popularity		112.696248184
 			Submarkets		[ 0; 1; 0 ]
 			Retention		48
 			TimeScale		1
@@ -35,49 +35,45 @@ SoftwareType
 			Features
 				[
 					{
-					Name		"System subfeat 1"
-					Description	"Description"
-					DevTime		3
-					Level		1
+					Name		"Data Transfer Option"
+					Description	"Allows data to be transferred, over than just a simple connection."
+					DevTime		2
+					Level		2
 					CodeArt		1
-					Submarkets	[ 0; 1; 0 ]
+					Server		0.002
+					Submarkets	[ 5; 1; 4 ]
 					}
 					{
-					Name		"System subfeat 2"
-					Description	"Description"
+					Name		"Excessive Code + Buttons"
+					Description	"Makes bandwidth increase"
 					DevTime		3
 					Level		2
 					CodeArt		1
-					Submarkets	[ 0; 1; 0 ]
+					Server          0.001525125675
+					Submarkets	[ 5; 4; 1 ]
 					}
 				]
 			}
 			{
-			Name 		"Audio Feature"
+			Name 		"Audio Transfer"
 			Spec		Audio
 			Dependencies	"Audio Tool"
 			Optional	True
-			Description	"Description"
+			Description	"Allows Audio to be sent"
 			DevTime		4
 			CodeArt		1
-			Submarkets	[ 0; 1; 3 ]#0%, 25%, 75%
+			Server		0.003
+			Submarkets	[ 5; 1; 4 ]
                         Features
 				[
 					{
-					Name		"Audio subfeat 1"
-					Description	"Description"
-					DevTime		3
+					Name		"Static when no sound is sent"
+					Description	"Waste the bandwidth"
+					DevTime		1
 					Level		1
 					CodeArt		1
-					Submarkets	[ 0; 1; 0 ]
-					}
-					{
-					Name		"Audio subfeat 2"
-					Description	"Description"
-					DevTime		3
-					Level		2
-					CodeArt		1
-					Submarkets	[ 0; 1; 0 ]
+					Server		0.002
+					Submarkets	[ 10; 1; 0 ]
 					}
 				]
 			}
@@ -146,7 +142,7 @@ SoftwareType
 			DevTime		6
 			CodeArt		1
 			Submarkets	[ 4; 1; 0 ]
-			Server		0.015
+			Server		0.010
                         Features
 				[
 					{
