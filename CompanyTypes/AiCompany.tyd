@@ -7,7 +7,7 @@ CompanyType
 	Types
 		[
 			{
-			Software	"Server Killer"
+			Software	"Web Connection (Client)"
 			Chance		1
 			}
 		]
