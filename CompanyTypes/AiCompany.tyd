@@ -1,0 +1,14 @@
+CompanyType
+	{
+	Specialization		"Mod Company"
+	PerYear			0.2
+	Min			4
+	Max			8
+	Types
+		[
+			{
+			Software	"MOD SOFTWARE NAME"
+			Chance		1
+			}
+		]
+	}

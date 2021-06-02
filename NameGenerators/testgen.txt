@@ -1,0 +1,10 @@
+-start(base)
+-base(base2,end,stop)
+Word
+Word2
+-base2(end,stop)
+Second word 1
+Second word 2
+-end(stop)
+Third word 1
+Third word 2
