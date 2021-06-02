@@ -1,13 +1,13 @@
 CompanyType
 	{
-	Specialization		"Mod Company"
-	PerYear			0.2
-	Min			4
-	Max			8
+	Specialization		"Server Killer Software Makers"
+	PerYear			0.8
+	Min			1
+	Max			2
 	Types
 		[
 			{
-			Software	"MOD SOFTWARE NAME"
+			Software	"Server Killer"
 			Chance		1
 			}
 		]
