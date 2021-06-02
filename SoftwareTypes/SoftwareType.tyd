@@ -6,7 +6,6 @@ SoftwareType
 	Random			0.1
 	IdealPrice		20
 	OptimalDevTime		36
-	OSSupport		Computer
 	OneClient		False
 	InHouse			True
 	SubmarketNames		[ Bandwidth Excessiveness; Complexity; Actual stuff that can be used ]
