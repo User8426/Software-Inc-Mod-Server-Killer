@@ -78,31 +78,34 @@ SoftwareType
 				]
 			}
                         {
-			Name 		"2D Feature"
+			Name 		"2D Data Compatability"
 			Spec		2D
 			Dependencies	"2D Editor"
 			Optional	True
-			Description	"Description"
-			DevTime		4
+			Description	"Allows 2D files to be sent, recieved and viewed"
+			DevTime		5
 			CodeArt		1
-			Submarkets	[ 0; 1; 3 ]#0%, 25%, 75%
+			Server		0.0012
+			Submarkets	[ 2; 2; 3 ]
                         Features
 				[
 					{
-					Name		"2D subfeat 1"
-					Description	"Description"
-					DevTime		3
-					Level		1
+					Name		"Background"
+					Description	"Detail"
+					DevTime		2
+					Level		0.5
 					CodeArt		1
-					Submarkets	[ 0; 1; 0 ]
+					Server		0.00001
+					Submarkets	[ 1; 1; 4 ]
 					}
 					{
-					Name		"2D subfeat 2"
-					Description	"Description"
-					DevTime		3
-					Level		2
-					CodeArt		1
-					Submarkets	[ 0; 1; 0 ]
+					Name		"Icons"
+					Description	"For more detail."
+					DevTime		4
+					Level		1
+					CodeArt		0.5
+					Server		0.00005
+					Submarkets	[ 1; 1; 5 ]
 					}
 				]
 			}
@@ -146,12 +149,13 @@ SoftwareType
                         Features
 				[
 					{
-					Name		"Network subfeat 1"
-					Description	"Description"
-					DevTime		3
+					Name		"Repeat data send"
+					Description	"Basically waste internet."
+					DevTime		8
 					Level		1
 					CodeArt		1
-					Submarkets	[ 0; 1; 0 ]
+					Server		0.041
+					Submarkets	[ 10; 1; 0 ]
 					}
 					{
 					Name		"Network subfeat 2"
