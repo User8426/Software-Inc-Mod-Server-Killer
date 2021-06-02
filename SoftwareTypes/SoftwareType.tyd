@@ -1,47 +1,37 @@
 SoftwareType
 	{
-	Name			"Software Name"
-	Category		Category1 ; Category2
-	Description		"Description"
+	Name			"Web Connection (Client)"
+	Category		Client
+	Description		"So someone can connect to your servers, and hopefully kill the servers. Good way to benchmark servers to an extreme."
 	Random			0.1
-	IdealPrice		50
-	OptimalDevTime		25
+	IdealPrice		20
+	OptimalDevTime		36
 	OSSupport		Computer
 	OneClient		False
-	InHouse			False
-	SubmarketNames		[ Market1; Market2; Market3 ]
+	InHouse			True
+	SubmarketNames		[ Bandwidth Excessiveness; Complexity; Actual stuff that can be used ]
 	Categories
 		[
 			{
-			Name			"Category1"
-			Description		"Category description"
-			Popularity		0.5
-			Submarkets		[ 1; 3; 1 ]#20%, 60%, 20%
-			Retention		24
+			Name			"Client"
+			Description		"Connection, a way to 'benchmark' your servers."
+			Popularity		56.3481240918
+			Submarkets		[ 0; 1; 0 ]
+			Retention		48
 			TimeScale		1
 			Iterative		0.75
-			NameGenerator		testgen
-			}
-                        {
-			Name			"Category2"
-			Description		"Category description"
-			Popularity		0.5
-			Submarkets		[ 1; 3; 1 ]#20%, 60%, 20%
-			Retention		24
-			TimeScale		1
-			Iterative		0.75
-			NameGenerator		testgen
+			NameGenerator		Clientgen
 			}
 		]
 	Features
 		[
 			{
-			Name 		"System Feature"
+			Name 		"System Components"
 			Spec		System
-			Description	"Description"
+			Description	"Contains the needed components to have the client do stuff."
 			DevTime		3
 			CodeArt		1
-			Submarkets	[ 1; 0; 1 ]#50%, 0%, 50%
+			Submarkets	[ 1; 4; 4 ]
 			Features
 				[
 					{
@@ -150,13 +140,13 @@ SoftwareType
 				]
 			}
                         {
-			Name 		"Network Feature"
+			Name 		"Networking"
 			Spec		Network
-			Optional	True
-			Description	"Description"
-			DevTime		4
+			Description	"So people can connect, otherwise this software is useless."
+			DevTime		6
 			CodeArt		1
-			Submarkets	[ 0; 1; 3 ]#0%, 25%, 75%
+			Submarkets	[ 4; 1; 0 ]
+			Server		0.015
                         Features
 				[
 					{
