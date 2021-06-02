@@ -1,0 +1,17 @@
+-start(base)
+-base(base2,end,stop)
+Connection Software
+Server Benchmark Software
+Server Speed Benchmark Software
+-base2(end,stop)
+ For Client
+ For Non Server Usage
+ For PC Connectors
+ For Connecting User
+ For Connecting
+-end(stop)
+ Normal Edition
+ Cheapish Edition
+ Slightly more expensive, edition
+ Collectors Edition
+ Quick Edition
