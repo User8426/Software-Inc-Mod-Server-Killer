@@ -4,7 +4,7 @@ SoftwareType
 	Category		Client
 	Description		"So someone can connect to your servers, and hopefully kill the servers. Good way to benchmark servers to an extreme."
 	Random			0.1
-	IdealPrice		2
+	IdealPrice		50
 	OptimalDevTime		90
 	OneClient		False
 	InHouse			True
