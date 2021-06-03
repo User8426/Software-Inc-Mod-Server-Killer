@@ -5,7 +5,7 @@ SoftwareType
 	Description		"So someone can connect to your servers, and hopefully kill the servers. Good way to benchmark servers to an extreme."
 	Random			0.1
 	IdealPrice		20
-	OptimalDevTime		36
+	OptimalDevTime		90
 	OneClient		False
 	InHouse			True
 	SubmarketNames		[ Bandwidth Excessiveness; Complexity; Actual stuff that can be used ]
